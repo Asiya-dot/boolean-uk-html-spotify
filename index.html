@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spotify clone</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="Container">
+      <!-- side-bar -->
+     <div class="side-bar">
+     <div  class=top-half>
+     <div class="logo--item">
+      <svg width="50" height="50" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M23.9999 0C10.7454 0 0 10.7451 0 23.9996C0 37.2555 10.7454 48 23.9999 48C37.2549 48 48 37.2555 48 23.9996C48 10.7451 37.2549 0 23.9999 0Z" fill="#1ED760"/>
+        <path d="M34.479 34.0945C34.0542 34.7911 33.1472 35.0093 32.4531 34.5848C26.9023 31.1922 19.9156 30.4261 11.6874 32.3055C10.8945 32.4872 10.1041 31.9904 9.92348 31.1978C9.7417 30.4049 10.2368 29.6146 11.0314 29.4336C20.0358 27.3753 27.7595 28.2611 33.9901 32.0683C34.6848 32.4926 34.9035 33.4001 34.479 34.0945Z" fill="white"/>
+        <path d="M37.3714 27.658C36.8368 28.5254 35.7026 28.7975 34.8363 28.2649C28.4841 24.3602 18.7972 23.2289 11.2818 25.5102C10.3074 25.8046 9.27793 25.2553 8.98183 24.2823C8.68827 23.3079 9.23785 22.2804 10.2108 21.9841C18.7961 19.3787 29.469 20.6405 36.7651 25.1243C37.6314 25.6578 37.9041 26.7925 37.3714 27.658Z" fill="white"/>
+        <path d="M37.6209 20.9557C30.0013 16.4306 17.433 16.0145 10.1592 18.2222C8.99085 18.5767 7.75564 17.9173 7.40196 16.7493C7.04799 15.5804 7.70653 14.346 8.87541 13.991C17.2255 11.4565 31.1059 11.9459 39.8777 17.1529C40.9286 17.7768 41.2729 19.1336 40.6502 20.1825C40.027 21.2332 38.669 21.5795 37.6209 20.9557Z" fill="white"/>
+        </svg>
+      <span class="menu-text">Spotify</span>
+     </div>
+      <div class="logo-item">
+      <svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+        <title>icon 111 search</title>
+        <path d="M19.4271164,20.4271164 C18.0372495,21.4174803 16.3366522,22 14.5,22 C9.80557939,22 6,18.1944206 6,13.5 C6,8.80557939 9.80557939,5 14.5,5 C19.1944206,5 23,8.80557939 23,13.5 C23,15.8472103 22.0486052,17.9722103 20.5104077,19.5104077 L26.5077736,25.5077736 C26.782828,25.782828 26.7761424,26.2238576 26.5,26.5 C26.2219324,26.7780676 25.7796227,26.7796227 25.5077736,26.5077736 L19.4271164,20.4271164 L19.4271164,20.4271164 Z M14.5,21 C18.6421358,21 22,17.6421358 22,13.5 C22,9.35786417 18.6421358,6 14.5,6 C10.3578642,6 7,9.35786417 7,13.5 C7,17.6421358 10.3578642,21 14.5,21 L14.5,21 Z" fill="white" id="search" sketch:type="MSShapeGroup"></path>
+    </svg>
+    <span class="menu-text">Search</span>
+      </div>
+      <div class="logo-item">
+         <svg width="30px" height="30px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <path d="M8,16 L20,16 L20,4 L8,4 L8,16 Z M12.5,10 C13.07,10 13.58,10.19 14,10.51 L14,5 L18,5 L18,7 L15,7 L15,12.5 C15,13.88 13.88,15 12.5,15 C11.12,15 10,13.88 10,12.5 C10,11.12 11.12,10 12.5,10 Z" id="🔹-Secondary-Color" fill="#D0D0D0"></path>
+          <path d="M20,2 L8,2 C6.9,2 6,2.9 6,4 L6,16 C6,17.1 6.9,18 8,18 L20,18 C21.1,18 22,17.1 22,16 L22,4 C22,2.9 21.1,2 20,2 Z M20,16 L8,16 L8,4 L20,4 L20,16 Z M12.5,15 C13.88,15 15,13.88 15,12.5 L15,7 L18,7 L18,5 L14,5 L14,10.51 C13.58,10.19 13.07,10 12.5,10 C11.12,10 10,11.12 10,12.5 C10,13.88 11.12,15 12.5,15 Z M2,6 L2,20 C2,21.1 2.9,22 4,22 L18,22 L18,20 L4,20 L4,6 L2,6 Z" id="🔹-Primary-Color" fill="#1D1D1D"></path>
+        </svg>
+          <span class="menu-text">Libary</span>
+      </div>
+        <div class="top.end">
+        <h1>PLAYLIST</h1>
+          <div class="logo--item">
+         <img src="asset/images/small cross.png" width="20px" />    
+         <span class="menu-text">Create playlist</span>
+          </div>
+         <div class="song play-list">
+           <nav class="song-list">
+             <ul class="song-title">
+             <li><a href="#">Reggea</li>
+              <li><a href="#">Jazz</li>
+                <li><a href="#">R&B</li>
+                  <li><a href="#">Soul</li>
+             </ul>
+            </nav>
+         </div>
+         <div class="top-bottom">
+            <svg  width="40px"xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+           <span class="menu-text">instant app</span>
+         </div>
+       <div class="bottom">
+       <img src="asset/images/afro girl.jpg" width="40px">
+         <span class="menu-text"> A W</span>
+       </div>
+        </div>
+     
+    </div>
+     
+    </div><!-- </side-bar>   -->
+        <div class="main-section"> <!--"main-section"-->
+      <nav class="item-link">
+        <ul>
+          <li><a href="#">TRENDING</a></li>
+          <li><a href="#">PODCAST</a></li>
+          <li><a href="#">CHARTS</a></li>
+          <li><a href="#">GENRE AND MOODS</a></li>
+          <li><a href="#">BRANDING</a></li>
+          <li><a href="#">DISCOVER</a></li>
+        </ul>
+        </nav>
+          <div>
+        <a href="#">Recently played</a>
+          </div>
+           <div class="wrapper">
+         <div class="album-image-wrapper">
+          <div class=frame>
+         <img src="asset/images/placeholder.jpg">
+           <p class="body-item">Album Name</p>
+          </div>
+          <div class=frame>
+            <img src="asset/images/placeholder.jpg">
+              <p class="body-item">Album Name</p>
+             </div>
+         </div>
+     </div>
+     </div>
+     <!-- </end of main-section> -->
+      <div class="top-bar">
+           <header class="top-item">
+         <button class="Upgrade-link" href="#">Upgrade</button>
+         <header>
+           </div> <!-- </topbar>  -->
+      
+    <div class="player">
+
+    <div class="play music">
+        <div class="bottom-image">
+        <img src="asset/images/aretha album.jpg" width="60px"/>
+        </div>
+
+     <div class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><g id="_06.BACK" data-name="06.BACK"><path d="M30.5,2.62a1,1,0,0,0-1,0L7.82,15.13a1,1,0,0,0,0,1.74L29.5,29.38a1,1,0,0,0,1.5-.86v-25A1,1,0,0,0,30.5,2.62ZM29,26.78,10.32,16,29,5.22Z"/><path d="M2,5.2a1,1,0,0,0-1,1V25.8a1,1,0,0,0,2,0V6.2A1,1,0,0,0,2,5.2Z"/></g></svg>
+     </div>
+      </div>
+    </div> 
+    
+    </div><!--container -->
+
+
+  </body>
+</html>
